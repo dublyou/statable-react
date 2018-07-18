@@ -2,9 +2,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 A responsive react table component for grouping, filtering, formatting and sorting data.
 
-##Properties
+## Properties
 
 Name | Type | Default | Description
+------------ | ------------- | ------------- | -------------
 calculations | object | | functions to run to yield the value for each data point in each column (see [Calculations API](#calculations-api))
 classes | object | | override or extend the styles of the components
 columnLabels | object | | value to display for the column in the table header
@@ -27,10 +28,10 @@ toggleGroups | boolean | true | allow user to toggle between table groupings
 totalColumns | object | | if specified, a total row will be rendered as the last row in the table for the columns specified
 
 
-###Columns API
+### Columns API
 
-###Calculations API
+### Calculations API
 
-###Filters API
+### Filters API
 
-###Renders API
+### Renders API
